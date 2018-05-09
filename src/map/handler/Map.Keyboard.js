@@ -82,7 +82,6 @@ export var Keyboard = Handler.extend({
 		    top = body.scrollTop || docEl.scrollTop,
 		    left = body.scrollLeft || docEl.scrollLeft;
 
-		alert(666);
 		window.scrollTo(left, top);
 	},
 
